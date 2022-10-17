@@ -8,3 +8,6 @@ git push
 git checkout main
 git pull
 
+# Node to Heroku Launch
+
+* Check Heroku Bugs
