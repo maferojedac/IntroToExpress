@@ -4,7 +4,7 @@ const cors = require('cors');
 const { router } = require('./routes')
 
 const app = express();
-const apiPort = process.env.API_PORT || 3003;
+const apiPort = process.env.PORT || 8080;
 
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(cors());
